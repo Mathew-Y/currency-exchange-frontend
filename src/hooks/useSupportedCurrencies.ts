@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://currency-exchange-backend-ca5e5fc63235.herokuapp.com";
 
 export const useSupportedCurrencies = () => {
   return useQuery<string[], Error>({

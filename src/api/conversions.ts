@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Conversion } from "../models/conversion";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://currency-exchange-backend-ca5e5fc63235.herokuapp.com";
 
 export interface GetConversionsParams {
   start_date: string;

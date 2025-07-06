@@ -93,6 +93,7 @@ export const DashboardSettings = () => {
           type="date"
           value={dashboardConfig.startDate}
           onChange={(e) => updateSetting("startDate", e.target.value)}
+          max={dashboardConfig.endDate}
         />
       </div>
 
